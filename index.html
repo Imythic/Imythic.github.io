@@ -6,8 +6,16 @@
 <title>Omar Fodkar — Software Engineer, AI Focus</title>
 <meta name="description" content="Omar Fodkar — Computer Science student at UT Dallas building AI-powered applications, agentic workflows, and data-driven tools." />
 <link rel="stylesheet" href="css/style.css" />
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+  }
+}
+</script>
 </head>
 <body>
+  <canvas id="bgCanvas"></canvas>
   <header class="nav" id="nav">
     <div class="nav-inner">
       <a href="#top" class="nav-brand">Omar<span class="accent">Fodkar</span></a>
@@ -250,5 +258,6 @@
   </footer>
 
   <script src="js/app.js"></script>
+  <script type="module" src="js/background3d.js"></script>
 </body>
 </html>
